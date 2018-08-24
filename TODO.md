@@ -7,3 +7,5 @@
 * Improve physics python scripts and add them to github
 * Script to make Conky display .md files (like this one)
 * Git track this file?
+* Upload Hex entry to GitHub
+* Write dog.c
