@@ -353,25 +353,22 @@ class FilterData():
         return df
 
     @classmethod
-    def from_pandas(cls, df, time_axis=None, data_axis=None)
+    def from_pandas(cls, df, time_axis=None, data_axis=None):
         """
         Create FilterData object from pandas dataframe.
-
-
         """
         return_df = pd.DataFrame()
         if time_axis in df.columns:
             return_df['time'] = df[time_axis]
         else:
             return_df['time'] = df[df.columns.values[0]]
-        
+
         if data_axis in df.columns:
             return_df['data'] = df[data_axis]
         else:
             return_df['data'] = df[df.columns.values[0]]
-        
-        return cls(return_df)
 
+        return cls(return_df)
 
     def copy(self):
         return type(self)(self._data)
