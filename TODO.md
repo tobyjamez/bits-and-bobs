@@ -8,3 +8,4 @@
 * Script to make Conky display .md files (like this one)
 * Git track this file?
 * Write dog.c
+* Bash (?) script to grab all lines with TODO in them in a directory and make a list of them
