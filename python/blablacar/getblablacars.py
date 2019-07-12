@@ -24,7 +24,7 @@ def parse_results(response: requests.models.Response) -> dict:
     Prints each option.
 
     :param response: The response from a requests.get call to blablacar.
-    :type: response: requests.models.Response.
+    :type response: requests.models.Response.
 
     :returns: A dictionary of letters and urls to blablacar.
     :rtype: dict.
