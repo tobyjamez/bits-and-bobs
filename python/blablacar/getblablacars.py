@@ -90,7 +90,6 @@ if __name__ == "__main__":
     else:
         params['fn'] = origin
         place = 'fn'
-        print(place)
         to = False
 
     while True:
